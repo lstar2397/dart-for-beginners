@@ -1,5 +1,10 @@
 void main() {
-    // var name = '의진';
-    String name = '의진';
-    name = 'euijin';
+    // var name;
+    dynamic name;
+    if (name is String) {
+        name.
+    }
+    if (name is int) {
+        name.
+    }
 }
