@@ -1,9 +1,8 @@
 void main() {
-  var list = [1, 2, 3, 4];
-  Map<List<int>, bool> player = {
-    list: true,
-    [5, 6, 7, 8]: false,
-  };
+  Set<int> numbers = {1, 2, 3, 4};
+  numbers.add(1);
+  numbers.add(1);
+  numbers.add(1);
 
-  print(player[list]);
+  print(numbers);
 }
