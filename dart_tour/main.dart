@@ -1,3 +1,5 @@
 void main() {
-    print('hello world');
+    // var name = '의진';
+    String name = '의진';
+    name = 'euijin';
 }
