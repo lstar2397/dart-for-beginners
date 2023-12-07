@@ -1,5 +1,4 @@
 void main() {
-  late final String name;
-  // do something, go to api
-  name = 'euijin';
+  const max_allowed_price = 120;
+  // const api = fetchApi(); X
 }
