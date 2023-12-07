@@ -1,10 +1,7 @@
 void main() {
-    // var name;
-    dynamic name;
-    if (name is String) {
-        name.
-    }
-    if (name is int) {
-        name.
-    }
+    String name = 'euijin';
+    name = null; // Error: A value of type 'Null' can't be assigned to a variable of type 'String'.
+    
+    String? nullableName = 'euijin';
+    nullableName = null;
 }
