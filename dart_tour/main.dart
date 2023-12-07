@@ -1,4 +1,5 @@
 void main() {
-    final name = 'euijin';
-    name = 'nico';
+  late final String name;
+  // do something, go to api
+  name = 'euijin';
 }
