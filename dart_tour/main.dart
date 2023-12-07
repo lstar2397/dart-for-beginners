@@ -1,10 +1,12 @@
 void main() {
-  String name = "euijin";
+  var giveMeFive = true;
+  var numbers = [
+    1,
+    2,
+    3,
+    4,
+    if (giveMeFive) 5,
+  ];
 
-  bool alive = true;
-  int age = 23;
-  double money = 69.99;
-
-  num x = 12;
-  x = 1.1;
+  print(numbers);
 }
